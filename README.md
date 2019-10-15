@@ -9,10 +9,10 @@ https://github.com/deviantony/docker-elk
 Download with git
 
 
-$ git clone https://github.com/deviantony/docker-elk.git
-$ cd docker-elk
+git clone https://github.com/deviantony/docker-elk.git
+cd docker-elk
 Then change the configu files according with the diff here...
-
+---------------------------------------------------------------------
 diff --git a/docker-compose.yml b/docker-compose.yml
 index 6936be0..19c4023 100644
 --- a/docker-compose.yml
@@ -47,8 +47,9 @@ index 14c76f8..43997b3 100644
         }
 +        stdout {}
  }
- 
- Finally:
+-----------------------------------------------------------------
+
+Finally:
  
  $ docker-compose up
  
