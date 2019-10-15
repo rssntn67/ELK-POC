@@ -27,9 +27,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>it.arsinfo.example</groupId>
-    <artifactId>Elk-Log-Service</artifactId>
+    <artifactId>elk-log</artifactId>
     <version>0.1-SNAPSHOT</version>
-    <name>WSO2 MSF4J Microservice</name>
+    <name>ELK LOG POC Microservice</name>
 
 
     <dependencies>
@@ -54,10 +54,10 @@
         </dependency>
         
         <dependency>
-		   <groupId>biz.paluch.logging</groupId>
-   			<artifactId>logstash-gelf</artifactId>
-   			<version>1.11.2</version>
-		</dependency>
+           <groupId>biz.paluch.logging</groupId>
+           <artifactId>logstash-gelf</artifactId>
+           <version>1.13.0</version>
+           </dependency>
     </dependencies>
 
     <properties>
