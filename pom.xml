@@ -61,7 +61,7 @@
     </dependencies>
 
     <properties>
-        <microservice.mainClass>it.arsinfo.example.service.Application</microservice.mainClass>
+        <microservice.mainClass>it.arsinfo.example.Application</microservice.mainClass>
     </properties>
 
 </project>
