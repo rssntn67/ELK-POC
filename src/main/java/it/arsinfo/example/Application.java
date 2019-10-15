@@ -14,9 +14,11 @@
  * limitations under the License.
  */
 
-package org.example.service;
+package it.arsinfo.example;
 
 import org.wso2.msf4j.MicroservicesRunner;
+
+import it.arsinfo.example.service.LogService;
 
 /**
  * Application entry point.
@@ -26,7 +28,7 @@ import org.wso2.msf4j.MicroservicesRunner;
 public class Application {
     public static void main(String[] args) {
         new MicroservicesRunner()
-                .deploy(new MyService())
+                .deploy(new LogService())
                 .start();
     }
 }
